@@ -10,3 +10,9 @@ public func screenRecordingDetection_isCaptured() -> Bool {
     return Bool(ScreenRecordingDetection.isCaptured())
 }
 ```
+
+### 参考 
+-  Swiftで関数を公開する、というところまで
+    - https://qiita.com/fuziki/items/955c2b35514bcfc37969
+- UIKitをImportする部分
+    - https://stackoverflow.com/questions/34778823/swift-package-manager-uikit-dependency
