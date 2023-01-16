@@ -11,7 +11,12 @@ public func screenRecordingDetection_isCaptured() -> Bool {
 }
 ```
 
-### 参考 
+## Frameworkのビルド
+```
+xcodebuild -project ScreenRecordingDetection.xcodeproj -scheme ScreenRecordingDetection-Package -configuration Release -sdk iphoneos CONFIGURATION_BUILD_DIR=.
+```
+
+## 参考 
 -  Swiftで関数を公開する、というところまで
     - https://qiita.com/fuziki/items/955c2b35514bcfc37969
 - UIKitをImportする部分
