@@ -3,6 +3,8 @@
 Unity向け
 画面収録を検知したらtrueを返すだけのSwiftPackageです。
 
+targetを `Any iOS Device` にしないと `import UIKit` ができずエラーが出ます。
+
 ```swift
 //公開メソッド
 @_cdecl("screenRecordingDetection_isCaptured")
